@@ -1,0 +1,7 @@
+# Parameter file created by 'update' from current variables
+## fit f(x) 'data.csv' via a, b
+ARGC            = 0.0                      # FIXED
+a               = 4.38510033028225         
+b               = 5.9728553753058          
+a_err           = 0.289355623881617        # FIXED
+b_err           = 0.0228234767353156       # FIXED
