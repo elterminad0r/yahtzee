@@ -20,8 +20,7 @@ def get_results(n):
         tg = num = 0
         
         for i in itertools.count(1):
-            dice = [randrange(6) for _ in range(n - num)]
-            counts = Counter(dice)
+            counts = Counter(randrange(6) for _ in range(n - num))
             (moded, modec), = counts.most_common(1)
 
             if modec > num and moded != tg:
